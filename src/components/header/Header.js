@@ -31,7 +31,7 @@ function Header() {
         <HeaderOption Icon={ModeCommentIcon} title="Messaging"/>
         <HeaderOption Icon={NotificationsIcon } title="Notifications"/>
         <div className="none flex">
-          <HeaderOption className="none" Icon={PersonOutlineIcon} title="Me"/>
+          <HeaderOption className="none" src={PersonOutlineIcon } title="Me"/>
         <HeaderOption className="none" Icon={ViewCompactIcon} title="For Business"/>
         </div>
         
