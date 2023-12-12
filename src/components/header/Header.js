@@ -1,15 +1,16 @@
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
-import linkedin from './linkedin.png';
+import linkedin from '../../assets/linkedin.png';
+import passport from '../../assets/passport.jpeg'
 import HomeIcon from '@mui/icons-material/Home';
 import HomeRepairServiceIcon from '@mui/icons-material/HomeRepairService';
 import ModeCommentIcon from '@mui/icons-material/ModeComment';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import ViewCompactIcon from '@mui/icons-material/ViewCompact';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import './Header.css'
 import HeaderOption from '../headerOption/HeaderOption';
+import Sidebar from '../sidebar/Sidebar';
 
 
 function Header() {
@@ -31,7 +32,7 @@ function Header() {
         <HeaderOption Icon={ModeCommentIcon} title="Messaging"/>
         <HeaderOption Icon={NotificationsIcon } title="Notifications"/>
         <div className="none flex">
-          <HeaderOption className="none" src={PersonOutlineIcon } title="Me"/>
+        <HeaderOption avatar={passport} title="Me"/>
         <HeaderOption className="none" Icon={ViewCompactIcon} title="For Business"/>
         </div>
         
