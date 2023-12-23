@@ -10,7 +10,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import ViewCompactIcon from '@mui/icons-material/ViewCompact';
 import './Header.css'
 import HeaderOption from '../headerOption/HeaderOption';
-import Sidebar from '../sidebar/Sidebar';
+
 
 
 function Header() {
