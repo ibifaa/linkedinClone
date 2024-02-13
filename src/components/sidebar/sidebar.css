@@ -3,6 +3,10 @@
  
 }
 
+.header-right{
+    grid-column-gap: 10px;
+    grid-row-gap: 0;
+}
 
 .sidebarTop{
     background-color: white;
@@ -91,4 +95,11 @@
     background-color: whitesmoke;
     color: black;
     cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .sidebar{
+        display: none;
+     
+    }
 }

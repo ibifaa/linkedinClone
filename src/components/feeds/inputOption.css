@@ -1,0 +1,21 @@
+.Input_Option{
+    margin-top: 15px 20px;
+    grid-column-gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.Inputoption{
+    align-items: center;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.Inputoption:hover{
+   background-color: whitesmoke;
+   border-radius: 10px;
+}

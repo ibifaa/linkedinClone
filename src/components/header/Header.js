@@ -27,7 +27,7 @@ function Header() {
       </div>
       <div className="header-right flex">
         <HeaderOption Icon={HomeIcon} title="Home"/>
-        <HeaderOption Icon={SupervisorAccountIcon } title="My Network"/>
+        <HeaderOption Icon={SupervisorAccountIcon} title="My Network"/>
         <HeaderOption Icon={HomeRepairServiceIcon} title="Jobs"/>
         <HeaderOption Icon={ModeCommentIcon} title="Messaging"/>
         <HeaderOption Icon={NotificationsIcon } title="Notifications"/>

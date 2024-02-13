@@ -1,9 +1,12 @@
 import React from 'react'
-import CreateIcon from '@mui/icons-material/Create';
 import passport from '../../assets/passport.jpeg'
-import { Avatar } from '@mui/material';
+import { Avatar } from '@mui/material'; 
+import Media from '@mui/icons-material/PermMedia';
+import Event from '@mui/icons-material/CalendarMonth';
+import Article from '@mui/icons-material/Article';
 import './feed.css';
-import Inputoption from './Inputoption';
+import InputOption from './InputOption';
+import Posts from '../posts/Posts';
 
 function Feed() {
   return (
@@ -19,9 +22,19 @@ function Feed() {
         </form>
       </div>
     </div>
-    <Inputoption/>
+    
+    <div className="Input_Option flex">
+        <InputOption Icon={Media} title='Media' color="#78b5f9"/>
+        <InputOption Icon={Event} title='Event' color="#EFB920"/>
+        <InputOption Icon={Article} title='Write Article' color="#F59890"/>
+    </div>
       
     </div>
+
+    <Posts 
+    name="Ibifaa Ibisaki Aruoture"
+    description="This is a test"
+    message='wow this worked' />  
     </div>
   )
 }
